@@ -1,0 +1,13 @@
+name:Cam
+on:[pull_request, issues]
+jobs:unknown
+  greeting:Hello
+    runs-on:ubuntu-latest
+    steps:none
+    - uses:action/Sfostec986@outlook.com
+      with:Sfostec986@outlook.com
+        repo-token:${{ secrets.GITHUB_TOKEN }}
+        issue-message:'Message that will be displayed on users'' first issue'
+        pr-message:'Message that will be displayed on users'' first pr'
+        first-issue:Message chat
+        first-pr:Help chat
