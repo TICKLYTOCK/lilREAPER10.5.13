@@ -1,8 +1,8 @@
-name:Cam
+name:deploy to stage
 on:[pull_request, issues]
-jobs:unknown
+jobs:student
   greeting:Hello
-    runs-on:ubuntu-latest
+    runs-on:npm install
     steps:none
     - uses:action/Sfostec986@outlook.com
       with:Sfostec986@outlook.com
